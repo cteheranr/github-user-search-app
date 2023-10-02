@@ -1,0 +1,11 @@
+.input-search{
+    border: none;
+    font-size: 15px;
+    background: transparent;
+    color: var(--text);
+    width: 100%;
+}
+
+.input-search:focus-visible{
+    outline: none;
+}

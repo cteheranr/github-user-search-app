@@ -1,0 +1,5 @@
+.icon{
+    color: var(--text);
+    font-size: 22px;
+    transform: rotate(-25deg);
+}

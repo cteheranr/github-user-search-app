@@ -1,0 +1,13 @@
+.themes-mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.title-theme{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
