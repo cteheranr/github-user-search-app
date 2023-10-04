@@ -3,6 +3,9 @@ import { Avatar } from './Avatar/Avatar';
 import { ProfileName } from './BasicInfoUser/ProfileName/ProfileName';
 import { DateRegister } from './BasicInfoUser/DateRegister/DateRegister';
 import { UserName } from './BasicInfoUser/UserName/UserName';
+import { ProfileBiography } from './BasicInfoUser/ProfileBiography/ProfileBiography';
+import { Repos } from './ProfileStats/Repos/Repos';
+import { ProfileStats } from './ProfileStats/ProfileStats';
 
 function CardProfile(){
     return(
@@ -16,6 +19,8 @@ function CardProfile(){
                     <DateRegister/>
                 </div>
                 <UserName/>
+                <ProfileBiography/>
+                <ProfileStats/>
             </div>
         </div>
     )

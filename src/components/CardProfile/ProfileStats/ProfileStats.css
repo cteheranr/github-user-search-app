@@ -1,0 +1,7 @@
+.profile-stat{
+    display: flex;
+    padding: 20px;
+    background-color: var(--bg-container);
+    border-radius: 20px;
+    justify-content: space-around;
+}
