@@ -1,0 +1,43 @@
+.conten-profile-contact{
+    width: 100%;
+    font-size: 15px;
+    gap:10%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2 / span 1;
+    column-gap: 8%;
+}
+
+.profile-contact{
+    width: 46%;
+    gap: 10px;
+    align-items: center;
+    margin: 5px 0;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis; 
+    display: inline-flex;
+}
+
+.not-available{
+    opacity: 0.5;
+}
+
+.profile-contact a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.profile-contact a:hover{
+    color: var(--text)
+}
+
+.profile-contact a:active{
+    color: var(--text)
+}
+
+@media only screen and (max-width: 1200px){
+    .conten-profile-contact {
+        grid-column: 1 / span 3;
+    }
+}

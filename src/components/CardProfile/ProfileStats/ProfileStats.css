@@ -4,4 +4,11 @@
     background-color: var(--bg-container);
     border-radius: 20px;
     justify-content: space-around;
+    grid-column: 2 / span 1;
+}
+
+@media only screen and (max-width: 1200px){
+    .profile-stat {
+        grid-column: 1 / span 3;
+    }
 }

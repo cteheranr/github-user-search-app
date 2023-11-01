@@ -24,6 +24,10 @@ function AppUI(){
                     <CardProfile/>
                 </main>
             </div>
+            <footer class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://cteheranr.github.io/" target="_blank">Camilo Teheran</a>.
+            </footer>
         </div>
     )
 }

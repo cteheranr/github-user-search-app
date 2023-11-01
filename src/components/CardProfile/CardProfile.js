@@ -6,6 +6,7 @@ import { UserName } from './BasicInfoUser/UserName/UserName';
 import { ProfileBiography } from './BasicInfoUser/ProfileBiography/ProfileBiography';
 import { Repos } from './ProfileStats/Repos/Repos';
 import { ProfileStats } from './ProfileStats/ProfileStats';
+import { ProfileContact } from './ProfileContact/ProfileContact';
 
 function CardProfile(){
     return(
@@ -16,12 +17,15 @@ function CardProfile(){
             <div className='basic-info-user'> 
                 <div className='name-date'>
                     <ProfileName/>
-                    <DateRegister/>
+                    <UserName/>
                 </div>
-                <UserName/>
+                <DateRegister/>
+            </div>
+                
                 <ProfileBiography/>
                 <ProfileStats/>
-            </div>
+                <ProfileContact/>
+            
         </div>
     )
 }
