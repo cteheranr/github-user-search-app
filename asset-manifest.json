@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cteheranr.github.io/github-user-search-app/static/css/main.1a7df9f0.css",
-    "main.js": "/cteheranr.github.io/github-user-search-app/static/js/main.0dc82042.js",
-    "static/js/787.7bf4f801.chunk.js": "/cteheranr.github.io/github-user-search-app/static/js/787.7bf4f801.chunk.js",
-    "index.html": "/cteheranr.github.io/github-user-search-app/index.html",
-    "main.1a7df9f0.css.map": "/cteheranr.github.io/github-user-search-app/static/css/main.1a7df9f0.css.map",
-    "main.0dc82042.js.map": "/cteheranr.github.io/github-user-search-app/static/js/main.0dc82042.js.map",
-    "787.7bf4f801.chunk.js.map": "/cteheranr.github.io/github-user-search-app/static/js/787.7bf4f801.chunk.js.map"
+    "main.css": "/github-user-search-app/static/css/main.1a7df9f0.css",
+    "main.js": "/github-user-search-app/static/js/main.9a63fe22.js",
+    "static/js/787.7bf4f801.chunk.js": "/github-user-search-app/static/js/787.7bf4f801.chunk.js",
+    "index.html": "/github-user-search-app/index.html",
+    "main.1a7df9f0.css.map": "/github-user-search-app/static/css/main.1a7df9f0.css.map",
+    "main.9a63fe22.js.map": "/github-user-search-app/static/js/main.9a63fe22.js.map",
+    "787.7bf4f801.chunk.js.map": "/github-user-search-app/static/js/787.7bf4f801.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a7df9f0.css",
-    "static/js/main.0dc82042.js"
+    "static/js/main.9a63fe22.js"
   ]
 }
