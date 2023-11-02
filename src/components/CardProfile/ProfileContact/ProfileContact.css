@@ -1,11 +1,10 @@
 .conten-profile-contact{
-    width: 100%;
     font-size: 15px;
-    gap:10%;
     display: flex;
     flex-wrap: wrap;
     grid-column: 2 / span 1;
     column-gap: 8%;
+    margin-top: 30px;
 }
 
 .profile-contact{

@@ -33,4 +33,7 @@
         justify-content: center;
         grid-column: 2 / span 2;
     }
+    .name-date{
+        width: 100%;
+    }
 }
