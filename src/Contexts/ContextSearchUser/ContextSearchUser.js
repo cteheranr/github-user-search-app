@@ -11,14 +11,12 @@ function SearchUserProvider({ children }){
     },[]);
 
     const getUser = async (username) =>{
-        console.log('user', username);
         const response = await fetch(`https://api.github.com/users/${username}`);
-        console.log('response', response.status);
         const dataUser = await response.json();
         if( response.status === 200){
             setData(dataUser);
         }else{        
-            console.log('Valio la peticion verga');
+            console.log('Verifica la petición');
         }
     }
 
